@@ -1,0 +1,87 @@
+.Reasons {
+  display: flex;
+  gap: 2rem;
+  grid-template: 2rem;
+  padding: 0 2rem;
+}
+.reasons--left {
+  flex: 1 1;
+  display: flex;
+  margin: 10px;
+  
+}
+.image1{
+  height: 44rem;
+  width: 15rem;
+}
+.image2{
+  height: 24rem;
+  width: 40rem;
+  margin-top: 0;
+}
+.image3{
+  height: 18.5rem;
+  width: 22rem;
+  
+}
+.image4{
+  height: 18.5rem;
+  width: 17rem;
+  margin-left: 1rem;
+}
+.gallery--left--right{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  
+}
+.gallery--bottom--right{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.reasons--right {
+  flex: 1 1;
+  text-transform: uppercase;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.reasons--right>span{
+  font-weight: bold;
+  color: var(--ORANGE);
+}
+.reasons--right>div{
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+}
+.right--details{
+  display: flex;
+  flex-direction: column;
+  
+  gap: 2rem;
+}
+.right--details>div{
+  display: flex;
+  font-size: 1rem;
+  gap: 1rem;
+
+}
+.right--details>div>img{
+  width: 2rem;
+  height: 2rem;
+}
+.right--partners--text{
+  color: var(--gray);
+  font-weight: normal;
+}
+.partners{
+  display: flex;
+  gap: 1rem;
+  
+}
+.partners>img{
+  width: 2.5rem;
+  height: 2.5rem;
+}
